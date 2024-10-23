@@ -1,0 +1,10 @@
+tasks:
+  run:
+    cmds:
+      - docker-compose up --build
+    desc: "Build and run the project"
+
+  test:
+    cmds:
+      - go test ./...
+    desc: "Run tests"
